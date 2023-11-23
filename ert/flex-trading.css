@@ -1,0 +1,38 @@
+/*HEADER*/
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.header-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-logo{
+    /*Включаем flexbox*/
+    display: flex;
+    /*Направление расположения блоков относительно Main axis слева направо*/
+    flex-direction: row;
+    /*Направление расположения блоков относительно Cross axis по центру*/
+    align-items: center;
+    /*Размер блоков с лого и названием(его вес) относительно других элементов*/
+    flex-grow: 1;
+}
+
+.logo-img{
+    margin-right: 40px;
+}
+
+.header-menu{
+    flex-grow: 3;
+}
+
+.cards-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

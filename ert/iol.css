@@ -1,0 +1,121 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/*HEADER*/
+
+.header {
+    width: 100%;
+    color:blueviolet;
+    padding: 20px;
+    background: #7B68EE;
+    box-sizing: border-box;
+}
+
+.menu-item{
+    list-style: none;
+}
+
+.menu-link{
+    color: #B0C4DE;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.banner-title, .banner-description{
+    text-align: center;
+    color: #5d7d88;
+}
+
+.banner-title{
+    font-size: 35px;
+}
+
+.banner-section{
+    padding: 100px 0;
+    background: url(image/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*CARDS*/
+
+.cards-section{
+    padding: 50px 0px;
+}
+
+.cards-title, .cards-description{
+    color: #9bcece;
+    text-align: center;
+}
+
+.card{
+    padding: 25px;
+    margin-top: 25px;
+    width: 25%;
+    background: #4242a5;
+    box-shadow: 0px 2px 7px 0px #a586a5;
+}
+
+.card-link{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.card-button{
+    text-align: center;
+    background: #B0C4DE;
+    padding: 10px 70px;
+    border-radius: 15px;
+}
+
+.card-title, .card-text{
+    margin-bottom: 10px;
+}
+
+.card-button{
+    text-align: center;
+    background: #5F9EA0;
+    padding: 10px 70px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.card-title, .card-text{
+    margin-bottom: 10px;
+}
+
+.cards{
+    display: inline-block;
+    width: 25%;
+    margin: 0px 45px;
+}
+
+.card{
+    padding: 25px;
+    margin-top: 25px;
+    background: white;
+    box-shadow: 0px 2px 7px 0px #008080;
+    text-align: center;
+}
+
+/*FOOTER*/
+
+.footer{
+    background: url(image/recurso_mascotas.jpg);
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+.copyright{
+    color: #F08080;
+}
